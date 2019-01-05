@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../App.css'
+import logo from '../alien-logo.jpg'
 
 class NavBar extends Component {
     
@@ -6,18 +8,13 @@ class NavBar extends Component {
         active: false
     };
 
-    toggleClass() {
-        console.log(this.state.active);
-        let currentState = this.state.active;
-        this.setState({ active: !currentState });
-    };
-
     render() {
         return (
-            <nav>
+            <nav id="nav-container">
+                <img id="logo" src={logo} className="App-logo" alt="logo" />
                 <ul className="nav-bar">
-                    <li><a id="nav-item-1" className={this.state.active ? 'active': null} onClick={this.toggleClass} href="#news">Login</a></li>
-                    <li><a id="nav-item-2" className={this.state.active ? 'active': null} onClick={this.toggleClass} href="#home">Sign up</a></li>
+                    <li><a id="nav-item-1" href="#signUp">Sign up</a></li>
+                    <li><a id="nav-item-2" href="#login">Login</a></li>
                 </ul>
             </nav>
         );
