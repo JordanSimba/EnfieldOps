@@ -4,10 +4,6 @@ import logo from '../alien-logo.jpg'
 
 class NavBar extends Component {
     
-    state = {
-        active: false
-    };
-
     render() {
         return (
             <nav id="nav-container">
@@ -19,7 +15,7 @@ class NavBar extends Component {
             </nav>
         );
     }
-
+    
     // setActive = (e) => {
     //     console.log(e.target.id);
     //     console.log("I'm inside the function!");
