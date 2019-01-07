@@ -62,7 +62,16 @@ li a.active {
   padding: 1px;
 }
 
+div#carousel {
+  margin: 0 auto;
+  height: 75%;
+  margin: 0 15% 0 15%;
+  background-color: grey;
+}
+
 div#slide-container {
   margin: 0 auto;
-  background-color: #4CAF50;
+  height: 600px;
+  margin: 0 20% 0 20%;
+  background-image: url("../src/images/todo-bg.jpg");
 }

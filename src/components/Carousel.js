@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import '../App.css'
-import slide from '../images/todo-bg.jpg'
+import '../App.css';
+import Arrow from './Arrow';
+import ImageSlide from './ImageSlide';
 
-class NavBar extends Component {
+class Carousel extends Component {
     
     render() {
         return (
-            <div id="slide-container">
-                <img id="logo" src={slide} className="App-logo" alt="logo" />
+            <div id="carousel">
+                <Arrow/>
+                <ImageSlide/>
+                <Arrow/>
             </div>
         );
     }
 }
 
-export default NavBar;
+export default Carousel;
