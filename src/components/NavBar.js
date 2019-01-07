@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css'
-import logo from '../alien-logo.jpg'
+import logo from '../images/alien-logo.jpg'
 
 class NavBar extends Component {
     
