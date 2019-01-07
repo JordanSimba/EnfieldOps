@@ -13,3 +13,48 @@ a {
   color: #333;
   text-decoration: none;
 }
+
+nav#nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #e7e7e7;
+
+}
+ul.nav-bar {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  align-self: center;
+  padding-right: 2%;
+}
+
+li {
+  float: right;
+  height: auto;
+  width: 89px;
+}
+
+li a {
+  display: block;
+  color: #666;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+#logo {
+  width: 140px;
+  height: 100px;
+  padding: 1px;
+}
