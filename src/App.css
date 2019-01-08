@@ -63,15 +63,19 @@ li a.active {
 }
 
 div#carousel {
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   height: 75%;
-  margin: 0 15% 0 15%;
+  width: 100%;
+  /* margin: 0 15% 0 15%; */
   background-color: grey;
 }
 
 div#slide-container {
-  margin: 0 auto;
-  height: 600px;
-  margin: 0 20% 0 20%;
+  /* margin: 0 auto; */
+  height: 100%;
+  width: 100%;
+  /* margin: 0 20% 0 20%; */
   background-image: url("../src/images/todo-bg.jpg");
 }
