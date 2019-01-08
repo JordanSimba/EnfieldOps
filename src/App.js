@@ -10,7 +10,6 @@ class App extends Component {
       <div className="App">
         <NavBar/>
         <Carousel/>
-        <h1>Hello World!</h1>
       </div>
     );
   }

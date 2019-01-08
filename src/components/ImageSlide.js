@@ -7,7 +7,7 @@ class ImageSlide extends Component {
     render() {
         return (
             <div id="slide-container">
-                <img id="logo" src={slide} alt="logo" />
+                {/* <img id="slide-img" src={slide} alt="logo" /> */}
             </div>
         );
     }

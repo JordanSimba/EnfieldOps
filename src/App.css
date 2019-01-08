@@ -68,14 +68,15 @@ div#carousel {
   margin: 0 auto;
   height: 75%;
   width: 100%;
-  /* margin: 0 15% 0 15%; */
   background-color: grey;
 }
 
 div#slide-container {
-  /* margin: 0 auto; */
   height: 100%;
   width: 100%;
-  /* margin: 0 20% 0 20%; */
   background-image: url("../src/images/todo-bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover
 }
+
+
