@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Arrow from './Arrow';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ImageSlide from './ImageSlide';
 
 class Carousel extends Component {
@@ -8,9 +8,13 @@ class Carousel extends Component {
     render() {
         return (
             <div id="carousel">
-                <Arrow/>
+                <div id="arrow-left">
+                    <FontAwesomeIcon icon="angle-double-left" size="4x"  />
+                </div>
                 <ImageSlide/>
-                <Arrow/>
+                <div id="arrow-right">
+                    <FontAwesomeIcon icon="angle-double-right" size="4x"  />
+                </div>
             </div>
         );
     }
