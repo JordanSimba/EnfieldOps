@@ -6,6 +6,5 @@ import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-s
 
 library.add(
   faAngleDoubleRight,
-  faAngleDoubleLeft
   // more icons go here
 );
