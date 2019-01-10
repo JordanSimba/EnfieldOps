@@ -6,9 +6,7 @@ class ImageSlide extends Component {
     //Working on Carousel first. Then this component, then work on the arrows.
     render() {
         return (
-            <div id="slide-container">
-                {/* <img id="slide-img" src={slide} alt="logo" /> */}
-            </div>
+            <div id="slide-container"></div>
         );
     }
 }

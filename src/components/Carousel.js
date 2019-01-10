@@ -9,11 +9,11 @@ class Carousel extends Component {
         return (
             <div id="carousel">
                 <div id="arrow-left">
-                    <FontAwesomeIcon icon="angle-double-left" size="4x"  />
+                    <FontAwesomeIcon className="arrow-svg" icon="angle-double-left" size="4x"  />
                 </div>
                 <ImageSlide/>
                 <div id="arrow-right">
-                    <FontAwesomeIcon icon="angle-double-right" size="4x"  />
+                    <FontAwesomeIcon className="arrow-svg" icon="angle-double-right" size="4x"  />
                 </div>
             </div>
         );

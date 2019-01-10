@@ -46,7 +46,7 @@ li {
 
 li a {
   display: block;
-  color:black;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
@@ -94,9 +94,17 @@ div#slide-container {
   width: 20%;
   height: 100%; 
   color: #5b5e65;
+  text-shadow: 30px 10px 0 red;
+
   background-color: #f3f3f3;
 }
 
+.fa-angle-double-left:hover:not(.active),
+.fa-angle-double-right:hover:not(.active) {
+  width: 1.3em;
+  height: 1.3em;
+}
 
+ 
 
 
