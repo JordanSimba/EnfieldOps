@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 import './App.css'
 import './fontawesome'
 
